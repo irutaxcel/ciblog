@@ -26,7 +26,7 @@
 
 		public function delete_category($id){
 			
-			$this->db->where('id', $id);
+			$this->db->where('id', $id);   
 			$this->db->delete('categories');
 			return true;
 		}
